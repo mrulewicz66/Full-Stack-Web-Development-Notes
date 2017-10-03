@@ -1,0 +1,49 @@
+<html>
+
+	<head>
+
+		<title>jQuery</title>
+		
+		 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		 
+		 <style type="text/css">
+		 
+			#hiddenText {
+			
+				display:none;
+			
+			}
+			
+		</style>
+
+	</head>
+
+	<body>
+	
+		<p id="text">This is some text!</p>
+		
+		<button id="fadeOut">Fade Out Text</button>
+		
+		<p id="hiddenText">This text will be hidden initially.</p>
+		
+		<button id="fadeIn">Fade In Text</button>
+		
+		<script type="text/javascript">
+		
+			$("#fadeOut").click(function() {
+			
+				$("#text").fadeOut();
+			
+			});
+			
+			$("#fadeIn").click(function() {
+			
+				$("#hiddenText").fadeIn();
+			
+			});
+		
+		</script>
+
+	</body>
+
+</html>
