@@ -1,6 +1,6 @@
 <?php
 
-	$family = array("Mike", "Connor", "Holen", "Kaitlin");
+	$family = array("Mike", "Connor", "Holden", "Kaitlin");
 	
 	$i = 0;
 	
