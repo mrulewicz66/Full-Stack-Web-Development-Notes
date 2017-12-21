@@ -1,12 +1,12 @@
 <?php
 
-	$emailTo = "mrulewicz66@gmail.com";
+	$emailTo = "";
 	
 	$subject = "I hope this works lol";
 	
 	$body = "I think you're great!";
 	
-	$headers = "From: dndnerd101@yahoo.com";
+	$headers = "From: ";
 	
 	if (mail($emailTo, $subject, $body, $headers)) {
 		
